@@ -1,0 +1,26 @@
+html, body {margin: 0; height: 100%; overflow: hidden}
+
+* {padding: 0; margin: 0 auto;}
+
+#MainDiv {
+    position: relative;
+}
+
+#MainDiv > canvas {
+    position: absolute;
+}
+
+#BackgroundCanvas {
+    position: absolute;
+    background: rgb(0, 0, 0);
+    display: block;
+}
+
+#GameCanvas {
+    position: absolute;
+    background: rgb(0, 0, 0);
+    display: block;
+
+    left: 50%;
+    transform: translate(-50%, 0);               
+}

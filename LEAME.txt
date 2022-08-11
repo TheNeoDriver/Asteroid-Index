@@ -1,0 +1,25 @@
+Asteroid Index, un pequeño y modesto videojuego de navegador
+sobre naves espaciales.
+
+¡Intenta llegar al máximo puntaje posible sin chocarte!
+Muevete con las flechas direccionales y dispara
+con la barra espaceadora.
+
+Algunas notas:
+-------------
+
+-Es mejor jugar el juego en una resolución 1366x768,
+con la ventana del navegador máximizada. No tuve tiempo
+de hacer una función "resize" para cambiar el tamaño del
+canvas de html.
+
+-El juego no tiene un botón de "play", ni de "restart" en caso
+de morir. Al abrir la página comenzará el juego. Al morir, deberá
+regargar la página.
+
+-El juego presenta un tintineo en la pantalla cuando hay
+muchos elementos en pantalla.
+
+-Muchas características están programadas de forma sencilla,
+y en cierto modo "hardcodeada", por lo que no son fácilmente
+escalables.
